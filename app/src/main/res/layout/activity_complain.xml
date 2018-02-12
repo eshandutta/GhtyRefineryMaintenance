@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.eshan.ghtyrefinerymaintenance.ComplainActivity">
+    <ScrollView
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:background="@drawable/bckscrn2"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+
+
+        <TextView
+            android:id="@+id/requestor_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Complainer's Name:"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:typeface="serif" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/req_name"
+            android:hint="complainer's name"
+            android:textSize="10dp"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/com_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Complaint Category:"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:typeface="serif" />
+
+        <Spinner
+            android:id="@+id/complain_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/complain_category">
+
+        </Spinner>
+        <TextView
+            android:id="@+id/com_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Complain Number:"
+            android:textColor="#ce3232"
+            android:textSize="25dp"
+            android:typeface="serif" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/comno"
+            android:hint="complain no."
+            android:inputType="number" />
+
+
+
+
+        <TextView
+            android:id="@+id/subcomplaint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Resgister Complain:"
+            android:textColor="#ce3232"
+            android:textSize="25dp"
+            android:typeface="serif" />
+
+        <Spinner
+            android:id="@+id/register_complain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/register_complain">
+
+        </Spinner>
+
+        <TextView
+            android:id="@+id/request_no"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Request Number:"
+            android:textColor="#ce3232"
+            android:textSize="25dp"
+            android:typeface="serif" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/req_no"
+            android:hint="request number"
+            android:inputType="number" />
+
+        <TextView
+            android:id="@+id/request_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Request Date:"
+            android:textColor="#ce3232"
+            android:textSize="25dp"
+            android:typeface="serif" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/req_date"
+            android:hint="request date"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/hostel_gh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Hostel/GH:"
+            android:textColor="#ce3232"
+            android:textSize="25dp"
+            android:typeface="serif" />
+
+        <Spinner
+            android:id="@+id/building_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/building_category">
+
+        </Spinner>
+
+        <TextView
+            android:id="@+id/request_place"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Request Place:"
+            android:textColor="#ce3232"
+            android:textSize="25dp"
+            android:typeface="serif" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/req_place1"
+            android:hint=" "
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/request_category"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Request Category:"
+            android:textColor="#ce3232"
+            android:textSize="25dp"
+            android:typeface="serif" />
+
+        <Spinner
+            android:id="@+id/req_cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/req_cat">
+
+        </Spinner>
+
+        <TextView
+            android:id="@+id/request_subcategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Request Sub-Category:"
+            android:textColor="#ce3232"
+            android:textSize="25dp"
+            android:typeface="serif" />
+
+        <Spinner
+            android:id="@+id/req_subcat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/req_subcat">
+
+        </Spinner>
+
+
+
+        <TextView
+            android:id="@+id/department_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Department:"
+            android:textColor="#ce3232"
+            android:textSize="25dp"
+            android:typeface="serif" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/dept_name"
+            android:hint="department name"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/location_room"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Location/Room No:"
+            android:textColor="#ce3232"
+            android:textSize="25dp"
+            android:typeface="serif" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/loc_room"
+            android:hint=" "
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Section:"
+            android:textColor="#ce3232"
+            android:textSize="25dp"
+            android:typeface="serif" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/sec"
+            android:hint="section"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/job_request"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Job Request:"
+            android:textColor="#ce3232"
+            android:textSize="25dp"
+            android:typeface="serif" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/job_req"
+            android:hint="job request"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="5dp"
+            android:text="Phone Number:"
+            android:textColor="#ce3232"
+            android:textSize="25dp"
+            android:typeface="serif" />
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimaryDark"
+            android:id="@+id/ph_no"
+            android:hint=""
+            android:inputType="number" />
+        <Button
+            android:id="@+id/submitbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimaryDark"
+            android:elevation="4dp"
+            android:paddingLeft="70dp"
+            android:paddingRight="70dp"
+            android:text="Submit"
+            android:textColor="#fff" />
+
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

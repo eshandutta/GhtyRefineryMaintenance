@@ -1,0 +1,133 @@
+<resources>
+    <string name="app_name">GhtyRefineryMaintenance</string>
+    <array name="complain_category">
+        <item>
+            ELECTRICAL
+        </item>
+        <item>
+            CIVIL
+        </item>
+    </array>
+
+    <array name="register_complain">
+        <item>
+            Family Quarter
+        </item>
+        <item>
+            Hostel/GH
+        </item>
+        <item>
+            Township Office Building
+        </item>
+    </array>
+
+    <array name="building_category">
+        <item>
+            Boiler Control Room
+        </item>
+        <item>
+            CDU Field Control Room
+        </item>
+        <item>
+           CDU Control Room
+        </item>
+        <item>
+            CISF Gate No 1. Building
+        </item>
+        <item>
+            CISF Gate No 2. Building
+        </item>
+        <item>
+            CISF Quarter Master Office
+        </item>
+        <item>
+            Central Store
+        </item>
+        <item>
+            Civil Maintenance - Sector 2
+        </item>
+        <item>
+            Civil Maintenance - Sector 3
+        </item>
+        <item>
+            Civil Maintenance - Sector 1
+        </item>
+        <item>
+            Civil Maintenance Office - Plant
+        </item>
+        <item>
+            DCU Field Control Room
+        </item>
+        <item>
+            DM Plant
+        </item>
+        <item>
+            ETP Maintenance
+        </item>
+        <item>
+            ETP Separator
+        </item>
+        <item>
+            ETP Control Room
+        </item>
+        <item>
+            Electrical Maintenance Workshop
+        </item>
+        <item>
+            Electrical substation-Sector-2
+        </item>
+        <item>
+            Fire and Safety Building
+        </item>
+        <item>
+            GR Hospital Building
+        </item>
+        <item>
+            Guest House-Sector 3
+        </item>
+        <item>
+            HDT
+        </item>
+        <item>
+            HGU Control Room
+        </item>
+        <item>
+            Indmax Field control Office
+        </item>
+        <item>
+            Inspection Office
+        </item>
+        <item>
+            Intake Office
+        </item>
+        <item>
+            Jubilee Hall
+        </item>
+        <item>
+            LPG Control Room
+        </item>
+        <item>
+            MSQ Building
+        </item>
+    </array>
+
+    <array name="req_cat">
+        <item>
+            xyz
+        </item>
+        <item>
+            abc
+        </item>
+    </array>
+
+    <array name="req_subcat">
+        <item>
+            xyz
+        </item>
+        <item>
+            abc
+        </item>
+    </array>
+
+
+</resources>
